@@ -1,0 +1,38 @@
+.box{
+    border: 2px solid green;
+    background-color: rgb(137, 255, 186);
+    color: rgb(40, 52, 230);
+    width: 200px;
+    height: 200px;
+    margin-left: 45%;
+    box-shadow: 4px 4px 4px rgb(71, 228, 71);
+    text-shadow: 5px 5px 3px rgb(186, 50, 199);
+    font-size: 30px;
+}
+.hover_box{
+    border: 2px solid green;
+    background-color: rgb(137, 255, 186);
+    color: rgb(40, 52, 230);
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    transition: all 3s ease-in-out 0s,1s;
+}
+.hover_box:hover{
+    width: 400px;
+    transform: rotate(360deg);
+    
+}
+.hover_box1{
+    border: 2px solid green;
+    background-color: rgb(137, 255, 186);
+    color: rgb(40, 52, 230);
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    transition: all 3s ease-in-out;
+}
+.hover_box1:hover{
+    transform: translateX(400px);
+}
